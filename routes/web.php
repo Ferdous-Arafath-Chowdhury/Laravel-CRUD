@@ -20,3 +20,5 @@ Route::get('/', function () {
 }); 
 
 Route::get('/student',[Student_Controller::class , 'init']);
+
+Route::view('/add','form');
